@@ -26,6 +26,7 @@ public class AnimalList extends ArrayAdapter<Animal> {
     public AnimalList(Activity context, List<Animal> animaisList){
         super(context, R.layout.list_layout, animaisList);
         this.context = context;
+
         this.animais = animaisList;
     }
 
