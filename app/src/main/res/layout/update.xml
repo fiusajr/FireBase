@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/editTextNomeAniUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextDataAniUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data de Nascimento"/>
+
+            <EditText
+                android:id="@+id/editTextNumeroAniUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Número"
+                android:inputType="phone" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione a Raça:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spinnerAnimalRacaUp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:entries="@array/raca" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sexo: "
+                android:textSize="20dp" />
+            <Spinner
+                android:id="@+id/spinnerAnimalSexoUp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:entries="@array/sexo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Atualizar" />
+
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Deletar"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+

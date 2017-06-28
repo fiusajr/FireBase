@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "309536451943",
+    "firebase_url": "https://fir-cf454.firebaseio.com",
+    "project_id": "fir-cf454",
+    "storage_bucket": "fir-cf454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309536451943:android:7bab0ea1665fa5ac",
+        "android_client_info": {
+          "package_name": "com.example.assis.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309536451943-mjcrce10mge0hv3r3mjk14vn8p3jhhhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu3XHJidEINWB14-YCcy5oPo7MwqhKECk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309536451943-mjcrce10mge0hv3r3mjk14vn8p3jhhhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

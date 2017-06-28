@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.assis.firebase.AddTrack">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Ver"
+        android:gravity="center"
+        android:id="@+id/editTextTNomeAni"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <LinearLayout
+
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/edtCodigoAni"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:ems="10"
+                android:hint="Código"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtTrackNomeAni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Qual o animal?" />
+
+            <EditText
+                android:id="@+id/edtTrackNumeroAni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Número"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/edtTrackDatanAni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="Data de nascimento" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione a Raça:"
+                android:textSize="20dp"/>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarRating"
+                android:max="5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Sexo: "/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RadioGroup
+        android:id="@+id/rgSexoAni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbFemeninoAni"
+            android:layout_width="134dp"
+            android:layout_height="45dp"
+            android:checked="true"
+            android:text="Fêmea" />
+
+        <RadioButton
+            android:id="@+id/rbMasculinoAni"
+            android:layout_width="134dp"
+            android:layout_height="45dp"
+            android:checked="true"
+            android:text="Macho" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLimparAni"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Limpar" />
+
+
+
+        <Button
+            android:id="@+id/btnTrackAni"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnExcluirAni"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Excluir" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listViewTrackAnimais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

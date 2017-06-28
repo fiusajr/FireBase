@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FireBase</string>
+    <string name="title_activity_secundario_ajustes">SecundarioAjustes</string>
+    <array name="raca">
+        <item>Holandês</item>
+        <item>Gir Leiteiro</item>
+        <item>7/8 Girolando</item>
+        <item>5/8 Girolando</item>
+        <item>3/8 Girolando</item>
+        <item>Jersey</item>
+        <item>Sem raça definida</item>
+    </array>
+    <array name="sexo">
+        <item>Fêmea</item>
+        <item>Macho</item>
+    </array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.assis.firebase.SecundarioCad">
+
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/editTextAnimalNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nome"
+                />
+
+        <EditText
+                android:id="@+id/editTextAnimalData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data de Nascimento"
+                android:inputType="date"
+                                 />
+
+        <EditText
+                android:id="@+id/editTextAnimalNumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Número"
+                android:inputType="phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione a Raça:"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerAnimalRaca"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:entries="@array/raca" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Sexo: "/>
+
+            <Spinner
+                android:id="@+id/spinnerAnimalSexo"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:entries="@array/sexo" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animais Cadastrados:"
+                android:gravity="center"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20dp"/>
+
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/listViewAnimais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
